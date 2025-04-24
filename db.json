@@ -1,82 +1,58 @@
 {
   "workouts": [
     {
-      "id": "14a6",
+      "id": "12b8",
+      "type": "Swimming",
+      "duration": 50,
+      "date": "2025-04-19",
+      "notes": "Went swimming in the morning"
+    },
+    {
+      "id": "fadc",
       "type": "Running",
-      "duration": 56,
-      "date": "2025-04-23"
+      "duration": 120,
+      "date": "2025-04-20",
+      "notes": "Went for a jog in the field",
+      "distance": 10
     },
     {
-      "id": "162d",
+      "id": "f5fe",
+      "type": "Cycling",
+      "duration": 45,
+      "date": "2025-04-21",
+      "notes": "Went cycling to Karura",
+      "distance": 20
+    },
+    {
+      "id": "4a1b",
       "type": "Running",
-      "duration": 57,
-      "date": "2025-04-24"
+      "duration": 100,
+      "date": "2025-04-22",
+      "notes": "Went for a walk at Karura on friday",
+      "distance": 10
     },
     {
-      "id": "c8b4",
-      "type": "Yoga",
-      "duration": 45,
-      "date": "2025-04-22"
+      "id": "134c",
+      "type": "Walking",
+      "duration": 60,
+      "date": "2025-04-23",
+      "notes": "Went for yoga",
+      "distance": null
     },
     {
-      "id": "e7e0",
-      "type": "Running",
-      "duration": 56,
-      "date": "2025-04-20"
+      "id": "9be0",
+      "type": "Basketball",
+      "duration": 50,
+      "date": "2025-04-24",
+      "notes": "went for basketball"
     },
     {
-      "id": "1da8",
-      "type": "Cycling",
-      "duration": 45,
-      "date": "2025-04-21"
-    },
-    {
-      "id": "7780",
-      "type": "Yoga",
-      "duration": 56,
-      "date": "2025-04-18"
-    },
-    {
-      "id": "aa2b",
-      "type": "Yoga",
-      "duration": 45,
-      "date": "2025-04-17"
-    },
-    {
-      "id": "d4d4",
-      "type": "Cycling",
-      "duration": 56,
-      "date": "2025-05-08"
-    },
-    {
-      "id": "d867",
-      "type": "Cycling",
-      "duration": 67,
-      "date": "2025-04-09"
-    },
-    {
-      "id": "b2d4",
-      "type": "Cycling",
-      "duration": 67,
-      "date": "2025-04-10"
-    },
-    {
-      "id": "30f3",
-      "type": "Yoga",
-      "duration": 45,
-      "date": "2025-05-01"
-    },
-    {
-      "id": "182c",
-      "type": "Yoga",
-      "duration": 67,
-      "date": "2025-04-16"
-    },
-    {
-      "id": "122e",
-      "type": "Yoga",
-      "duration": 56,
-      "date": "2025-04-08"
+      "id": "8e71",
+      "type": "Walking",
+      "duration": 30,
+      "date": "2025-04-17",
+      "notes": "walked for 1 km",
+      "distance": 1
     }
   ]
 }

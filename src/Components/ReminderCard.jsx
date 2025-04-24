@@ -6,7 +6,8 @@ const ReminderCard = ({ workouts }) => {
   useEffect(() => {
     const calculateStreak = () => {
       
-      const sortedWorkouts = workouts.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by most recent first
+      //Here you sort streak with most recent first
+      const sortedWorkouts = workouts.sort((a, b) => new Date(b.date) - new Date(a.date)); 
       let streakCount = 0;
       const today = new Date();
 
