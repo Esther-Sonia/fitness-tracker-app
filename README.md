@@ -21,7 +21,7 @@ A simple and clean fitness tracking application built with **React**, **Tailwind
 
 ## 📸 Screenshots
 
-![Fitness tracker app Screenshot](./public/Landingpage.png.png) 
+![Fitness tracker app Screenshot](./public/Landingpage.png) 
 
 
 ## 🛠️ Installation
