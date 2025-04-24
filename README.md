@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🏋️‍♀️ Fitness Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and clean fitness tracking application built with **React**, **Tailwind CSS**, and **JSON Server**. Users can log workouts, view their history, and stay on top of their fitness goals.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- 💪 Add a workout with type, duration, distance, and notes
+- 📜 View workout history with dynamic icons and category colors
+- 🌥️ Beautiful UI with background image and overlays
+- 🔄 Uses `useState`, `useEffect`, props, and routing
+- 🛠️ Data stored and fetched from a `db.json` file using `json-server`
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧱 Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-- **React** – Frontend library
+- **React Router DOM** – Routing between pages
+- **Tailwind CSS** – For styling
+- **json-server** – Simulated backend (optional for full CRUD functionality)
 
-### `npm test`
+## 📸 Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Fitness tracker app Screenshot](./public/Landingpage.png.png) 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/yourusername/fitness-tracker-app.git
+cd fitness-tracker-app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
+Run the JSON Server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install -g json-server
+json-server --watch db.json --port 3001
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the app**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+🧾 Pages & Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pages:
+/ - Home
 
-### Analyzing the Bundle Size
+/dashboard - Dashboard with reminder and summary
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+/WorkoutPage - Add new workout
 
-### Making a Progressive Web App
+/historyPage - View workout history
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Main Components:
 
-### Advanced Configuration
+WorkoutForm.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+DashboardStats.jsx
 
-### Deployment
+HistoryList.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Navbar.jsx
 
-### `npm run build` fails to minify
+ReminderCard.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
