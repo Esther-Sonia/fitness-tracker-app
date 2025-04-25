@@ -11,7 +11,7 @@ const Dashboard = () => {  //added error handling isloading and ser error
     const fetchWorkoutData = async () => { //chagnged error handling
       try {
         setIsLoading(true);
-        const response = await fetch('http://localhost:3001/workouts');
+        const response = await fetch('https://fitness-json-api.onrender.com/workouts');
 
         if (!response.ok) {
           throw new Error('Failed to fetch workout data');

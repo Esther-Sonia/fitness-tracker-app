@@ -44,7 +44,7 @@ const WorkoutForm = () => { //additional field in the workout form
     };
 
     try {
-      const response = await fetch('http://localhost:3001/workouts', {
+      const response = await fetch('https://fitness-json-api.onrender.com/workouts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

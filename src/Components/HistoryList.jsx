@@ -14,7 +14,7 @@ const HistoryList = () => {
 
   // Load workouts from the server
   useEffect(() => {
-    fetch('http://localhost:3001/workouts')
+    fetch('https://fitness-json-api.onrender.com/workouts')
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch workouts');
         return res.json();
@@ -45,7 +45,7 @@ const HistoryList = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm('Delete this workout?');
     if (confirmDelete) {
-      fetch(`http://localhost:3001/workouts/${id}`, { method: 'DELETE' })
+      fetch(`https://fitness-json-api.onrender.com/workouts/${id}`, { method: 'DELETE' })
         .then(() => {
           setWorkouts(workouts.filter(w => w.id !== id));
         })
@@ -81,7 +81,7 @@ const HistoryList = () => {
       distance: editFormData.distance ? parseFloat(editFormData.distance) : null
     };
 
-    fetch(`http://localhost:3001/workouts/${editingWorkout.id}`, {
+    fetch(`https://fitness-json-api.onrender.com/workouts/${editingWorkout.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedWorkout)
