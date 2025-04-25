@@ -10,7 +10,7 @@ const DashboardData = () => {
   useEffect(() => {
     const fetchWorkoutData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/workouts');
+        const response = await fetch('https://fitness-json-api.onrender.com/workouts');
         
          const data = await response.json();
         console.log('API Response:', data);
